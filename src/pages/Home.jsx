@@ -1,8 +1,16 @@
+import Hero from "../components/Hero";
+
 export default function Home() {
   return (
-    <main className="container mx-auto p-6">
-      <h1 className="text-3xl font-bold">Home</h1>
-      <p>Bienvenue sur le mini-site React.</p>
-    </main>
+    <div>
+      <Hero />
+      <div className="container">
+        <h2>Présentation</h2>
+        <p>
+          Ce mini-site a été généré avec React et Vite, et contient une interface 
+          moderne, responsive et animée. 
+        </p>
+      </div>
+    </div>
   );
 }

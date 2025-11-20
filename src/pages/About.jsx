@@ -1,8 +1,14 @@
 export default function About() {
   return (
-    <main className="container mx-auto p-6">
-      <h1 className="text-3xl font-bold">About</h1>
-      <p>Page de présentation.</p>
-    </main>
+    <div className="container">
+      <h1>À propos</h1>
+      <p>
+        Ce projet a été créé dans un environnement 100% terminal : 
+        installation, structure, Git, GitHub et React.
+      </p>
+      <p>
+        L’objectif est d’apprendre à gérer un projet moderne et complet en partant de zéro.
+      </p>
+    </div>
   );
 }
