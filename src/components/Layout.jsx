@@ -11,10 +11,10 @@ export default function Layout({ children }) {
       }}
     >
       <Navbar />
+<main style={{ flex: 1 }}>
+  <div className="container">{children}</div>
+</main>
 
-      <main style={{ flex: 1, padding: "20px" }}>
-        {children}
-      </main>
 
       <Footer />
     </div>
