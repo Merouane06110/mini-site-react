@@ -1,7 +1,15 @@
 export default function Footer() {
   return (
-    <footer>
-      © {new Date().getFullYear()} MiniSite React — Tous droits réservés.
+    <footer
+      style={{
+        padding: "15px",
+        background: "#eee",
+        textAlign: "center",
+        marginTop: "40px",
+      }}
+    >
+      <p>© 2025 - Mini Site React</p>
     </footer>
   );
 }
+
